@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: docker pull dockervijiptl/spring-boot-mongo:latest
+        image: dockervijiptl/spring-boot-mongo
         ports:
         - containerPort: 8080
         env:
